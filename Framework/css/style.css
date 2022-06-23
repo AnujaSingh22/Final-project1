@@ -1,0 +1,95 @@
+nav {
+  background-color: antiquewhite;
+}
+ ul li {
+  display: inline;
+  justify-content: right;
+  align-items: center;
+  margin: 15px;
+  text-decoration: none;
+  height: 20px;
+  width: 80px;
+  border-radius: 5px;   
+  
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+footer ul li {
+  display: inline;
+  margin: 10px;
+ 
+}
+footer {
+  text-align: center;
+  background-color: antiquewhite;
+  list-style: none;
+  padding: 8px 12px;
+}
+nav img {
+  float: left;
+  width: 70px;
+  padding-bottom: 15px;
+   
+}
+.image {
+  position: relative;
+  bottom: 10px;
+}
+.nepal-village {
+  width: 500px;
+  height: 150px;
+}
+nav {
+
+  text-align: right;
+  padding: 12px;
+
+}
+.main1 {
+  background-image: url(../Image/nepal-village.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 200px;
+
+}
+.hotels {
+  float: left;
+  border: 1px solid red;
+  width: 33%;
+  height: 200px;
+ 
+  
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  
+}
+.welcome {
+  font-size: 100px;
+}
+nav .image {
+  margin-bottom: 15px;
+}
+.text-box {
+  background-color: aqua;
+  text-align: center;
+}
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+
+}
