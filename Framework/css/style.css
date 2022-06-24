@@ -9,14 +9,52 @@ nav {
   text-decoration: none;
   height: 20px;
   width: 80px;
-  border-radius: 5px;   
-  
+  border-radius: 5px;    
 }
 a {
   color: black;
   text-decoration: none;
 }
-
+ul li a:hover {
+color: orange;
+}
+.search {
+  width: 330px;
+  float: right;
+  margin-left: 270px;
+}
+.srch {
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background:transparent;
+  border: solid orange;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  background: orange;
+  border: 2px solid orange;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn:focus {
+  outline: none;
+}
+.srch:focus {
+  outline: none;
+}
 footer ul li {
   display: inline;
   margin: 10px;
@@ -57,15 +95,18 @@ nav {
   font-size: 100px;
   text-align: center;
   padding-top: 200px;
-
 }
+
 .hotels {
   float: left;
   border: 1px solid red;
   width: 33%;
   height: 200px;
- 
-  
+  margin-top: 10px;
+  margin-right: 2px; 
+}
+.hotels {
+  background-color: bisque;
 }
 .container:after {
   content: "";
@@ -93,3 +134,42 @@ nav .image {
   margin: auto;
 
 }
+.form {
+  width: 250px;
+  height: 380px;
+  background: orange;
+  position:absolute;
+  top: 100px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+  
+}
+
+.container1 {
+  width: 300px;
+  height: 225px;
+ 
+}
+.container1 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.container1 iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+footer .icon {
+  font-size: 2.5rem;
+
+}
+footer .copy {
+  background-color: antiquewhite;
+  text-align: left;
+}
+  
